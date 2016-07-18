@@ -1,3 +1,4 @@
+//dev
 trait Queue[+T] {
   def isEmpty: Boolean
   def enQueue[B >: T](t: B): Queue[B]
